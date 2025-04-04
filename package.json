@@ -1,5 +1,5 @@
 {
-  "name": "cursor-mcp-installer",
+  "name": "@maotouy/cursor-mcp-installer",
   "version": "0.5.0",
   "bin": {
     "cursor-mcp-installer": "./lib/index.mjs"
