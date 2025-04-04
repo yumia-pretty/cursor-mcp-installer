@@ -1,12 +1,21 @@
-# cursor-mcp-installer - 一个用于安装MCP服务器的MCP服务器
+# 🚀 Cursor MCP 安装工具
 
-这个服务器是一个可以为您安装其他MCP服务器的服务器。安装它后，您可以让Claude帮您安装托管在npm或PyPi上的MCP服务器。要求安装`npx`和`uv`分别用于Node和Python服务器。
+> 为 Cursor 设计的 MCP 服务器安装程序，轻松扩展 AI 能力
 
-![image](https://github.com/user-attachments/assets/d082e614-b4bc-485c-a7c5-f80680348793)
+## 📋 功能简介
 
-### 如何安装:
+这是一个元服务器，专为 Cursor 用户设计，可帮助您一键安装和配置其他 MCP 服务器。支持从 npm 或 PyPi 安装服务器，并自动处理配置过程。
 
-将以下内容放入您的Cursor MCP配置文件 `C:\Users\用户名\.cursor\mcp.json`（Windows）或 `~/.cursor/mcp.json`（macOS）:
+**技术要求**：
+- 需安装 `npx` 用于 Node.js 服务器
+- 需安装 `uv` 用于 Python 服务器
+
+## 🔧 安装方法
+
+将以下配置添加到 Cursor MCP 配置文件：
+
+- **Windows**: `C:\Users\用户名\.cursor\mcp.json`
+- **macOS**: `~/.cursor/mcp.json`
 
 ```json
 {
@@ -21,12 +30,6 @@
 }
 ```
 
-### 示例提示
+## 📊 兼容性
 
-> 嘿Claude，安装名为mcp-server-fetch的MCP服务器
-
-> 嘿Claude，将@modelcontextprotocol/server-filesystem包安装为MCP服务器。参数使用['/Users/username/Desktop']
-
-> 你好Claude，请安装位于/Users/username/code/mcp-youtube的MCP服务器，我懒得自己做。
-
-> 安装服务器@modelcontextprotocol/server-github。设置环境变量GITHUB_PERSONAL_ACCESS_TOKEN为'1234567890'
+该工具兼容所有标准 MCP 服务器，包括 npm 包和本地开发的服务器。
