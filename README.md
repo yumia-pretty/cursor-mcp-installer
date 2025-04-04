@@ -14,7 +14,7 @@
     "cursor-mcp-installer": {
       "command": "npx",
       "args": [
-        "@anaisbetts/cursor-mcp-installer"
+        "@maotouy/cursor-mcp-installer"
       ]
     }
   }

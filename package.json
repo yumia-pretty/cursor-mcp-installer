@@ -1,5 +1,5 @@
 {
-  "name": "@anaisbetts/cursor-mcp-installer",
+  "name": "@maotouy/cursor-mcp-installer",
   "version": "0.5.0",
   "bin": {
     "cursor-mcp-installer": "./lib/index.mjs"
@@ -9,7 +9,7 @@
   "scripts": {
     "prepare": "tsc && shx chmod +x ./lib/index.mjs"
   },
-  "author": "Ani Betts <anais@anaisbetts.org>",
+  "author": "maotouy <2287373842@qq.com>",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.1",
