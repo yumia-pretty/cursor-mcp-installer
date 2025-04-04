@@ -1,0 +1,24 @@
+{
+  "name": "@anaisbetts/cursor-mcp-installer",
+  "version": "0.5.0",
+  "bin": {
+    "cursor-mcp-installer": "./lib/index.mjs"
+  },
+  "description": "A MCP server to install other MCP servers for Cursor",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc && shx chmod +x ./lib/index.mjs"
+  },
+  "author": "Ani Betts <anais@anaisbetts.org>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "rimraf": "^6.0.1",
+    "spawn-rx": "^4.0.0"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
