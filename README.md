@@ -17,13 +17,33 @@
 - **Windows**: `C:\Users\用户名\.cursor\mcp.json`
 - **macOS**: `~/.cursor/mcp.json`
 
+### 方法一（推荐）：
+
+```json
+{
+  "mcpServers": {
+    "cursor-mcp-installer": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@yumia-pretty/cursor-mcp-installer@latest"
+      ]
+    }
+  }
+}
+```
+
+### 方法二：
+
 ```json
 {
   "mcpServers": {
     "cursor-mcp-installer": {
       "command": "npx",
       "args": [
-        "@maotouy/cursor-mcp-installer"
+        "@yumia-pretty/cursor-mcp-installer"
       ]
     }
   }
@@ -33,3 +53,7 @@
 ## 📊 兼容性
 
 该工具兼容所有标准 MCP 服务器，包括 npm 包和本地开发的服务器。
+
+## 📦 源代码
+
+此项目的源代码托管在GitHub上：[yumia-pretty/cursor-mcp-installer](https://github.com/yumia-pretty/cursor-mcp-installer)
