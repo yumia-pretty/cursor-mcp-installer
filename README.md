@@ -1,5 +1,7 @@
 # 🚀 Cursor MCP 安装工具
 
+[![smithery badge](https://smithery.ai/badge/@yumia-pretty/cursor_mcp_installer)](https://smithery.ai/server/@yumia-pretty/cursor_mcp_installer)
+
 > 为 Cursor 设计的 MCP 服务器安装程序，轻松扩展 AI 能力
 
 ## 📋 功能简介
@@ -17,7 +19,9 @@
 - **Windows**: `C:\Users\用户名\.cursor\mcp.json`
 - **macOS**: `~/.cursor/mcp.json`
 
-### 方法一（推荐）：
+### 安装方式
+
+### 方法一：从GitHub获取
 
 ```json
 {
@@ -35,8 +39,7 @@
 }
 ```
 
-### 方法二：
-
+### 方法二：从npm获取
 ```json
 {
   "mcpServers": {
